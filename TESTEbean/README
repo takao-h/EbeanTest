@@ -1,49 +1,31 @@
-This is your new Play application
-=================================
+# Awesome Project
 
-This file will be packaged with your application when using `activator dist`.
+**(MUST)**
 
-There are several demonstration files available in this template.
+プロジェクトの概要を一行に。
 
-Controllers
-===========
+e.g.
+> Awesome WebAPI
 
-- HomeController.java:
+## Description
 
-  Shows how to handle simple HTTP requests.
+具体的な説明を記載。
 
-- AsyncController.java:
+e.g.
+>
 
-  Shows how to do asynchronous programming when handling a request.
+## Requirements
+<!-- 必須で必要となるライブラリなどを列挙 -->
 
-- CountController.java:
+- Java 1.8.x
+- MySQL 5.7
 
-  Shows how to inject a component into a controller and use the component when
-  handling requests.
+## Installation
 
-Components
-==========
+ローカルでのインストール方法についての説明。
 
-- Module.java:
+## Usage
 
-  Shows how to use Guice to bind all the components needed by your application.
+プロジェクトの使い方。起動方法、テスト方法など。
 
-- Counter.java:
-
-  An example of a component that contains state, in this case a simple counter.
-
-- ApplicationTimer.java:
-
-  An example of a component that starts when the application starts and stops
-  when the application stops.
-
-Filters
-=======
-
-- Filters.java:
-
-  Creates the list of HTTP filters used by your application.
-
-- ExampleFilter.java
-
-  A simple filter that adds a header to every response.
+## Deploy
